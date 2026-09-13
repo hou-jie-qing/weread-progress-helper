@@ -1,4 +1,4 @@
-# 阅读进度助手 (Reading Progress Helper)
+# 微信读书进度助手 (Reading Progress Helper)
 
 > 在微信公众号 / 微信读书 / 小鹅通课程页上，实时显示当前阅读进度（已读百分比）。
 
