@@ -1,0 +1,7 @@
+# 工作区数据（不上传）
+.workbuddy/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store

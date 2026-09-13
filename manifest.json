@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "阅读进度助手",
+  "version": "1.3.0",
+  "description": "显示公众号/微信读书/小鹅通课程页的阅读进度（已读百分比，微信读书横版阅读除外）",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mp.weixin.qq.com/*",
+        "*://weread.qq.com/*",
+        "*://*.xet.pomoho.com/*",
+        "*://*.xiaoe-tech.com/*",
+        "*://*.xiaoeknow.com/*",
+        "*://*.xeknow.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
